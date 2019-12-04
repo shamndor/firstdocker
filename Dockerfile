@@ -1,6 +1,5 @@
-FROM ubuntu:latest
-RUN apt-get update
-Run apt-get install nodejs
+FROM alpine:latest
+RUN apk update && apk add nodejs
 Run mkdir -p /user/src/app
 copy ./myapp.js  /user/src/app
 workdir /user/src/app
