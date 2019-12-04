@@ -1,5 +1,5 @@
-FROM alpine:latest
-Run apk update && add nodejs
+FROM ubuntu:latest
+Run apt-get update && add nodejs
 Run mkdir -p /user/src/app
 copy ./myapp.js  /user/src/app
 workdir /user/src/app
