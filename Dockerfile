@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update
-RUN apt-get install git-core curl build-essential openssl libssl-dev \
+RUN apt-get install git curl build-essential openssl libssl-dev \
  && git clone https://github.com/nodejs/node.git \
  && cd node \
  && ./configure \
