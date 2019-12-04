@@ -1,5 +1,6 @@
 FROM ubuntu:latest
-Run apt-get update && add nodejs
+Run apt-get update 
+Run apt-get install nodejs
 Run mkdir -p /user/src/app
 copy ./myapp.js  /user/src/app
 workdir /user/src/app
