@@ -7,7 +7,9 @@ spec:
   template:
     metadata:
       labels:
-        app: sise
+      selector:
+      matchLabels:
+      app: sise
     spec:
       containers:
       - name: sise
