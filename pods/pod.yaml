@@ -1,16 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: abdelalim-deploy   
+  labels:
+    app: mydocker
+  name: mydocker  
 spec:
   replicas: 2
   selector:
     matchLabels:
-      name: redis
+      app: mydocker     
   template:
     metadata:
       labels:
-       name: test
+       name: mydocker
     spec:
       containers:
       - name: sise
