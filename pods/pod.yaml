@@ -11,7 +11,6 @@ spec:
     metadata:
       labels:
        name: test
-    app: sise
     spec:
       containers:
       - name: sise
