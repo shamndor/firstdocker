@@ -4,7 +4,7 @@ metadata:
   name: simpleservice
 spec:
   externalIPs:
-  -10.128.0.7
+  - 10.128.0.7
   type: LoadBalancer  
   ports:
     - port: 80
