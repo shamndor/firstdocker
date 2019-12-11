@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: shmandor/mydocker
+        image: shmandor/my-docker:v-9
         ports:
         - containerPort: 80
