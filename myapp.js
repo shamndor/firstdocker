@@ -6,7 +6,7 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
     
     // Send the response body as "Hello World"
-    response.end('Hello Every One On The World Specialy You forever seriously \n');
+    response.end('Hello Every One On this World Specialy You forever seriously \n');
  }).listen(80);
  
  
